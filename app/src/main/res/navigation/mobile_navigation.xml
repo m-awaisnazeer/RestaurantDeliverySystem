@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.comunisolve.restaurantdeliverysystem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.comunisolve.restaurantdeliverysystem.ui.menu.MenuFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_food_details"
+        android:name="com.comunisolve.restaurantdeliverysystem.ui.feedDetails.FoodDetailsFragment"
+        android:label="@string/menu_food_details"
+        tools:layout="@layout/fragment_food_details" />
+    <fragment
+        android:id="@+id/foodListFragment"
+        android:name="com.comunisolve.restaurantdeliverysystem.ui.foodlist.FoodListFragment"
+        android:label="Food List"
+        tools:layout="@layout/food_list_fragment" />
+    <fragment
+        android:id="@+id/cartItemsFragment"
+        android:name="com.comunisolve.restaurantdeliverysystem.ui.cartItemsFragment.CartItemsFragment"
+        android:label="Cart"
+        tools:layout="@layout/cart_items_fragment" />
+</navigation>

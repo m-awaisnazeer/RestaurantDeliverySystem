@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "782916572459",
+    "firebase_url": "https://restaurant-delivery-syst-20ad0.firebaseio.com",
+    "project_id": "restaurant-delivery-syst-20ad0",
+    "storage_bucket": "restaurant-delivery-syst-20ad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782916572459:android:3375502d91ca148eaee16e",
+        "android_client_info": {
+          "package_name": "com.comunisolve.restaurantdeliverysystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782916572459-5694sc6radq6uvnqe71r4ub151b8nh3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.comunisolve.restaurantdeliverysystem",
+            "certificate_hash": "db6b6629b4bc216a44b7092a4c0b96802522f926"
+          }
+        },
+        {
+          "client_id": "782916572459-nnvad5k0n52da5b800hjujv005qstvr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNuMqOLVWJM8USyl5IzwFc4AhKfxcXFGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782916572459-nnvad5k0n52da5b800hjujv005qstvr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
